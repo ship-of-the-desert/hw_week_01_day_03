@@ -46,4 +46,21 @@ var isCharacterAVowel=function(character){
     }
     }
 
+
+
+/*pow(base, exponent)
+Define a function pow that replicates the Math.pow() method in JavaScript's Math object.*/
+
+
+var pow=function(base, exponent){
+    if(exponent == 0){
+        return console.log(1)
+    }
+    else if (exponent == 1){
+        return console.log(base)
+    }
+    else {
+        return console.log(base ** exponent)
+    }
+}
     
