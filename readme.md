@@ -56,3 +56,9 @@ Write a function `isCharacterAVowel` that takes a character (i.e. a string of le
 ### pow(base, exponent)
 
 Define a function `pow` that replicates the [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow) method in JavaScript's Math object.
+
+---
+
+## Reminder
+
+Remember to submit an issue to our class repository with your work by 10 am Eastern tomorrow morning! Need a reminder on how to submit? [Check out the instructions on how to submit homework in our class Wiki](https://github.com/ship-of-the-desert/homework_submission_steps) if you need a reminder.
