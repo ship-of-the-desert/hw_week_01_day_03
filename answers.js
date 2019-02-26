@@ -18,6 +18,7 @@ function currencyConverter(amount, currency) {
 console.log(currencyConverter(20,'BD'));
 
 //Problem 2: is character vowel
+
 /* functions that checks if the character is a vowel or not
     inputs: character (letter)
     output: true for vowel false otherwise
@@ -33,3 +34,21 @@ function isCharacterAVowel (char) {
 
 console.log(isCharacterAVowel('f'));
 
+//Problem 3: pow
+
+/* function that calculates the value of base^power
+    input: base, exponent
+    output: base^power
+*/
+
+function pow(base, exponent) {
+    if (exponent > 1) {
+        return base * pow(base, exponent-1);
+    } else if (exponent==0) {
+        return 1;
+    } else {
+        return base;
+    }
+}
+
+console.log(pow(3,10));
