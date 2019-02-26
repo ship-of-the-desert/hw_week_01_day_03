@@ -1,4 +1,5 @@
-// // A1:
+/*
+/ // A1:
 //currencyConverter
 function currencyConverter( amount , currency)
 {
@@ -34,5 +35,32 @@ console.log(currencyConverter( 1 , 'USD'));
 console.log(currencyConverter( 1 , 'GBP'));
 console.log(currencyConverter( 1 , 'EGP'));
 console.log(currencyConverter( 1 , 'BD'));
-
+*/
 ///////////////////////////////////////////
+
+//A2:
+//isCharacterAVowel
+
+function itisCharacterAVowel (char)
+{
+var char_LowCase= char.toLowerCase ();
+if (char_LowCase =='a' || char_LowCase =='e' || char_LowCase =='o'||
+char_LowCase =='u')
+
+{
+    return true;
+
+}
+else
+{
+    return false;
+
+}
+    
+
+}
+
+console.log(itisCharacterAVowel('a'));
+console.log(itisCharacterAVowel('U'));
+console.log(itisCharacterAVowel('G'));
+//////////////////////////////////////
