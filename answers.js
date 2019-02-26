@@ -1,7 +1,9 @@
 // HW WEEK 01 DAY 03
 
 /*currencyConverter(currency, amount)
-Define a function currencyConverter that takes two arguments an amount and a currency (USD, GBP, EGP, BD) and returns the converted version of the amount in Riyals. Use the if-then-else construct available in Javascript.
+Define a function currencyConverter that takes two arguments an amount and
+ a currency (USD, GBP, EGP, BD) and returns the converted version of the amount in Riyals.
+  Use the if-then-else construct available in Javascript.
 
 Hint :
 
@@ -26,3 +28,22 @@ var currencyConverter=function(currency, amount){
     }
 }
 
+
+
+/*isCharacterAVowel(character)
+Write a function isCharacterAVowel that takes a character 
+(i.e. a string of length 1) and returns true if it is a vowel and false, otherwise.
+
+A, E, I, O, U
+*/
+
+
+var isCharacterAVowel=function(character){
+    if(character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U'){
+        console.log(true)
+    } else {
+        console.log(false)
+    }
+    }
+
+    
