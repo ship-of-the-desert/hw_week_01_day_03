@@ -36,7 +36,7 @@ function isCharacterAVowel(letter){
 
     letter=letter.toLowerCase();
     var vowal=true;
-    
+
     if ( letter=='o' ||  letter=='a' || letter=='e' || letter=='i' || letter=='u'){
         return vowal; 
     }
@@ -51,4 +51,45 @@ console.log(isCharacterAVowel("b"));
 
 // Q 3: pow(base, exponent)
 
+function pow(base,exponent){
+
+  if (exponent==0){
+     return 1;
+  }
+  if (exponent==1){
+  return base;
+  }
+  if (isNaN (exponent)){
+    return NaN;
+  }
+  if (isEven(exponent)){
+    return pow(base * base, exponent / 2);
+  }
+  
+ return base * pow(base * base, (exponent - 1) / 2);
+  
+
+  function isEven (number){
+   if (number%2===0){
+       return true;
+   }
+   else {
+   return false;
+   }
+  } 
+  
+}
 //..................................
+console.log(pow(2,1));
+console.log(pow(2,0));
+console.log(pow(2,"k"));
+console.log(pow(7,3));
+
+// Just to compare the result with Math.pow
+console.log(Math.pow(2,1))
+console.log(Math.pow(2,0))
+console.log(Math.pow(2,"k"))
+console.log(Math.pow(7,3))
+
+
+
