@@ -20,5 +20,16 @@ console.log(currencyConverter(20,'BD'));
 //Problem 2: is character vowel
 /* functions that checks if the character is a vowel or not
     inputs: character (letter)
-    output:
+    output: true for vowel false otherwise
 */
+function isCharacterAVowel (char) {
+    if (char === 'a' || char=='o' || char=='u'
+            || char=='e' || char=='i') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isCharacterAVowel('f'));
+
