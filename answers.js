@@ -32,9 +32,20 @@ console.log(currencyConverter(1,"DB"))
 
 
 // Q 2: isCharacterAVowel(character)
+function isCharacterAVowel(letter){
 
-
-
+    letter=letter.toLowerCase();
+    var vowal=true;
+    
+    if ( letter=='o' ||  letter=='a' || letter=='e' || letter=='i' || letter=='u'){
+        return vowal; 
+    }
+    else { 
+        return (!vowal); 
+    }
+}
+console.log(isCharacterAVowel("A"));
+console.log(isCharacterAVowel("b"));
 //..................................
 
 
