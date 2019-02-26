@@ -27,7 +27,7 @@ Recommendation:
 
 6) After each section (even if you're not fully done with it), *add* and *commit* your work.
 
-Please use the commit messages that you see at the end of each section (modify it if you need to ie `currencyConverter almsot solved`). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message.
+_Please use the commit messages that you see at the end of each section (modify it if you need to ie `currencyConverter almsot solved`). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message._
 
 7) When you are done with your homework, push it to your `origin` (this is your Github) and make a pull request on our repo.
 
