@@ -64,3 +64,19 @@ console.log(itisCharacterAVowel('a'));
 console.log(itisCharacterAVowel('U'));
 console.log(itisCharacterAVowel('G'));
 //////////////////////////////////////
+
+
+//A3:
+//pow
+
+function pow(base, exponent)
+{
+if (exponent != 0)
+
+return (base*pow(base, exponent-1));
+else
+    return 1;
+}
+console.log(pow(2,3));
+console.log(pow(3,3));
+/////////////////////////////////////
