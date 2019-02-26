@@ -50,6 +50,26 @@ function currencyConverter(currency , amount )
        console.log(isCharacterAVowel("s"));
        console.log(isCharacterAVowel("a"));
        console.log(isCharacterAVowel("U"));
+              
+             // ________________________//
+
+             //power function #3
+     
+    function pow (base, exponent){
+        if ( exponent!= 0 )
+        return (base * pow ( base, exponent-1 ));
+        else 
+        
+        return 1;
+    
+    }
+    console.log(pow(2,3));
+    console.log(pow(3,3));
+    console.log(pow(4,3));
+    ///
+ 
+ 
+
        
     
     
