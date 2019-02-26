@@ -1,4 +1,4 @@
-// HW WEEK 01 DAY 03
+// HW WEEK01 DAY03
 
 /*currencyConverter(currency, amount)
 Define a function currencyConverter that takes two arguments an amount and
