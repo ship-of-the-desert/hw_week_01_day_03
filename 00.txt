@@ -1,0 +1,44 @@
+var amount, currency, result;
+
+currency = window.promet("enter type of currency","");
+
+amount = window.prompt("enter the volue","");
+
+amount= parseFloat(amount);
+
+currencyConverter(amount,currency);
+
+
+
+
+function currencyConverter (amount,currency){
+
+if (currency =="usa"){
+
+result = amount *3.75;
+
+return result;}
+
+
+
+else if (currency=="GBP"){
+
+result = amount *4.97;
+
+return result;}
+
+
+
+else if (currency == "EGP"){
+
+    result = amount /4.68;
+
+    return result;}
+
+
+
+    else if (currency=="BD"){
+
+        result = amount*9.95;
+
+    return result;}  }
