@@ -36,7 +36,7 @@
 ///////////////////////
 // pow(base, exponent)
 
-  function exponend (x,n){
+  function exponent (x,n){
     console.log(Math.pow(x, n));
 }
-    exponend(7,3);
+    exponent(7,3);
