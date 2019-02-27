@@ -3,7 +3,30 @@
 // currencyConverter(currency, amount)
 
 
-
+function currencyconverter (x,n){
+    if (n==='DB'){
+        z=  x*10;
+        return `${x} ${n} is ${z} SR`
+    }
+ 
+    else if (n==='EP'){
+        z=  x/4.68;
+        return `${x} ${n} is ${z} SR`
+    }
+ 
+    else if (n==='USD'){
+        z=  x*3.75;
+        return `${x} ${n} is ${z} SR`
+    }
+ 
+     else if (n==='GBP'){
+        z=  x*4.95;
+        return `${x} ${n} is ${z} SR`
+    }
+ 
+ }
+ 
+ console.log(currencyconverter(20,'GBP'));
 
 
 
@@ -37,6 +60,6 @@
 // pow(base, exponent)
 
   function exponent (x,n){
-    console.log(Math.pow(x, n));
+    console.log(x**n);
 }
     exponent(7,3);
