@@ -1,30 +1,23 @@
-
 // Areej 
-// P 1: currencyConverter(currency, amount)
 
-function currencyConverter(amount,currency){
-    var amountConverted;
-  if (currency=="USD"){
-      amountConverted= amount *  0.27;
-      return  (amount+' Riyals = '+ amountConverted +" United States Dollar"); 
-    }   
-   else if (currency=="GBP"){
-    amountConverted=amount* 0.20;
-      return (amount+' Riyals = '+ amountConverted +" British Pound Sterling"); 
-    }
-    else if (currency=="EGP"){
-        amountConverted=amount* 4.68;
-    return (amount+' Riyals = '+amountConverted + " Egyptian pound");
-    }
-    else if (currency=="DB"){
-        amountConverted=amount*  0.10;
-    return (amount+' Riyals = '+amountConverted + " Bahraini dinar");
-    }
-    else {
-    return ("Please Enter the ammount in SR and currency USD, GBP, EGP, and BD ")
-    }
+function currencyConverter(currency , amount )
+{
+    if (currency == "USD")
+    return amount * 3.75;
 
+     else if (currency == "GBP")
+     return amount * 4.95;
+
+   else if  (currency == "EGP")
+   return amount * 0.21;
+
+         else if (currency == "BD")
+         return amount * 9.95;
+
+         else 
+         return " google it ;)";
 }
+        console.log(currencyConverter("USD", 4)+ "riyals");
 
 
 
@@ -75,8 +68,5 @@ function pow(base,exponent){
   } 
   
 }
-
 // Just to compare the result with Math.pow
 console.log(Math.pow(3,10))
-console.log(Math.pow(6,0))
-console.log(Math.pow(9,2))
